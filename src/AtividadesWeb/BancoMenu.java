@@ -1,5 +1,7 @@
 package AtividadesWeb;
 
+import AtividadesWeb.entities.Conta;
+
 import java.util.Scanner;
 
 public class BancoMenu {
