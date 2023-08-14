@@ -1,3 +1,5 @@
+package AtividadesWeb;
+
 import java.util.Scanner;
 
 public class Triangulo {
@@ -13,6 +15,7 @@ public class Triangulo {
         z = escolha.nextDouble();
 
         if (x==y && x==z){
+
             System.out.println("Equilátero");
         }else if (x!= y || x!=z){
             System.out.println("Isoceles");

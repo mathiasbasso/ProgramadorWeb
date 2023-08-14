@@ -1,3 +1,5 @@
+package AtividadesWeb;
+
 import java.util.Scanner;
 
 public class BancoMenu {
@@ -7,6 +9,7 @@ public class BancoMenu {
         int entrada;
         double ValorSaque, ValorDeposito;
         boolean menu;
+        String nome;
 
         while (menu = true) {
             System.out.println("Escolha:" +
